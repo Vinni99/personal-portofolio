@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+ .header {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  padding: 60px;
+  background: #0a0a0a;
+  color: #fff;
+ }
+
+nav a {
+    color: #fff;
+    background-color: #0a0a0a;
+    text-align:right;
+    padding-top: 30px;
+    margin: 20px;
+    font-size: larger;
+}
+
+main{
+    display: flex;
+}
+
+aside h1 {
+    flex: 1;
+    padding: 65px;
+  text-align: center;
+  border-right: 3px solid black;
+  
+}
+
+p{
+    text-align:center;
+    display: flex;
+    padding-block: 90px;
+
+}
+
+.element {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer div {
+   text-align: center;
+   letter-spacing: 5px;
+}
