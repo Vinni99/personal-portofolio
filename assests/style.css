@@ -44,7 +44,7 @@ p{
 
 }
 
-.element {
+.element-1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -53,13 +53,30 @@ p{
 
 .element h3 {
     position: relative;
-    top: 50px;
+    top: 40px;
+    border:  2px solid rgb(0, 0, 0);
     background-color: #fff;
+
 }
 
-.box h4  {
+
+.box-1 h4  {
     position: relative;
     top:30px;
+    border: 3px solid black;
+    display: flexbox;
+}
+.box-2 {
+    position: absolute;
+    right: 50%;
+    top: 70%;
+    border-style: double;
+    display: flexbox;
+}
+.react {
+    border: 2px solid black;
+    position: relative;
+    bottom: 24px;
 }
 
  @media screen and (max-width:900px) {
